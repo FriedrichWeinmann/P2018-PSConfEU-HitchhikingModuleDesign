@@ -1,0 +1,11 @@
+TOPIC
+	about_MyModule
+	
+SHORT DESCRIPTION
+	Explains how to use the MyModule powershell module
+	
+LONG DESCRIPTION
+	<Insert Content here>
+
+KEYWORDS
+	MyModule

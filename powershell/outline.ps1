@@ -3,11 +3,19 @@ break
 
 # Content Brainfart
 <#
-Concept Help
-- "about_<modulename>" :
+Module Identity
+- Entity / Component / Resource model
+- Ensure visibility
+
+Documentation [Demo]
+- Concept Help "about_<modulename>" :
 -- Explains purpose of module
 -- Explains basic usage
 -- Explains where to get more information
+- Channels
+-- Youtube
+-- Website
+--- Github Sites
 
 Prefix
 - Needs to have one to reduce conflicts (Get-User)
@@ -31,11 +39,14 @@ Command naming
 - The big advice
 -- Ask someone familiar with the technology the module manages but unfamiliar with the module to search for the command
 
-TabCompletion
-- Get-Alcohol
+TabCompletion [Demo]
+- Get-Beer -Beer Parameter
 
-Configuration
+Configuration [Demo]
 - Avoid hardtyping settings - provide sane defaults, offer options to change them.
+-- In-Memory configuration
+-- File-Based configuration
+-- PSFConfig
 
 Pipeline Design
 - Accept output from Get-Commands
@@ -47,7 +58,7 @@ Pipeline Design
 - PassThru parameter
 - Intentionally do not support pipeline
 
-Clean Up behind you
+Clean Up behind you [Demo]
 - Release resources on removal / exit
 - Clean up temporary files no longer needed
 
@@ -64,13 +75,16 @@ Things that get puppies killed
 
 <#
 # Order
-1) Documentation
-2) Prefix
-3) TabCompletion
-4) Command naming
-5) Configuration
-6) No Littering
-7) Pipeline Design
-8) Things that get puppies killed
-9) The need for speed
+1) Identity
+2) Documentation
+3) Prefix
+4) TabCompletion
+5) Command naming
+6) Configuration
+7) No Littering
+8) Pipeline Design
+9) Things that get puppies killed
+10) The need for speed
 #>
+
+#TODO: Add configuration option: FridgeCapacity
